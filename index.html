@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Anmy Technologies builds practical apps that simplify everyday life, including PayDay."
+    />
+    <title>Anmy Technologies</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Anmy Technologies home">
+        <img src="assets/icon.png" alt="" class="brand-icon" />
+        <span>Anmy Technologies</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#payday">PayDay</a>
+        <a href="#features">Features</a>
+        <a href="#sync">Cloud Sync</a>
+        <a class="nav-button" href="#payday">Explore PayDay</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-shell" id="top">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">PayDay by Anmy Technologies</p>
+          <h1>Building apps that simplify everyday life.</h1>
+          <p class="hero-text">
+            PayDay is a local-first money companion for salary, income,
+            commitments, bills, rent, reports, and cloud backup.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#payday">Explore PayDay</a>
+            <a class="secondary-button" href="#features">See Features</a>
+          </div>
+          <div class="hero-metrics" aria-label="PayDay highlights">
+            <div>
+              <strong>Local-first</strong>
+              <span>Works without sign-in</span>
+            </div>
+            <div>
+              <strong>Manual restore</strong>
+              <span>Cloud data stays protected</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" id="payday" aria-label="PayDay app preview">
+          <div class="phone-mockup">
+            <div class="phone-speaker"></div>
+            <div class="phone-screen">
+              <div class="app-top">
+                <span class="menu-lines" aria-hidden="true"></span>
+                <strong>PayDay</strong>
+                <span class="bell-dot" aria-hidden="true"></span>
+              </div>
+
+              <div class="salary-strip">
+                <div class="round-icon wallet-icon">$</div>
+                <div>
+                  <span>Monthly Salary</span>
+                  <strong>RM 3,000.00</strong>
+                </div>
+                <span class="chevron">›</span>
+              </div>
+
+              <div class="balance-card">
+                <span>Remaining Balance</span>
+                <strong>RM 1,991.00</strong>
+                <small>66.4% of available income left</small>
+              </div>
+
+              <div class="dashboard-grid">
+                <div class="expense-card">
+                  <span>Listed Expenses</span>
+                  <strong>RM 1,009.00</strong>
+                  <small>Paid RM 0.00 · Unpaid RM 1,009.00</small>
+                  <div class="progress-track"><span></span></div>
+                </div>
+                <div class="flow-card">
+                  <p><span class="dot green"></span>Income <strong>RM 3,000</strong></p>
+                  <p><span class="dot red"></span>Paid <strong>RM 0</strong></p>
+                  <p><span class="dot blue"></span>Left <strong>RM 1,991</strong></p>
+                </div>
+              </div>
+
+              <div class="upcoming-card">
+                <div class="card-heading">
+                  <strong>Upcoming Payments</strong>
+                  <span>View All</span>
+                </div>
+                <div class="payment-row">
+                  <span class="payment-icon car">C</span>
+                  <div>
+                    <strong>Car Loan</strong>
+                    <small>Due on 18th</small>
+                  </div>
+                  <span>RM 650</span>
+                </div>
+                <div class="payment-row">
+                  <span class="payment-icon bill">B</span>
+                  <div>
+                    <strong>DirectLend</strong>
+                    <small>Due on 25th</small>
+                  </div>
+                  <span>RM 200</span>
+                </div>
+              </div>
+
+              <div class="shortcut-rail">
+                <span>Salary</span>
+                <span>Income</span>
+                <span>Bills</span>
+                <span>Rent</span>
+              </div>
+
+              <div class="bottom-nav">
+                <span class="active">Dashboard</span>
+                <span>Reports</span>
+                <span>Settings</span>
+              </div>
+            </div>
+          </div>
+          <div class="glow glow-one"></div>
+          <div class="glow glow-two"></div>
+        </div>
+      </section>
+
+      <section class="section-shell product-band reveal">
+        <img src="assets/icon.png" alt="PayDay app icon" />
+        <div>
+          <p class="eyebrow">Current App Experience</p>
+          <h2>Designed around the PayDay dashboard.</h2>
+        </div>
+        <p>
+          The landing page mirrors the app's black interface, green balance
+          card, rounded panels, category colors, and clear local-first sync
+          flow.
+        </p>
+      </section>
+
+      <section class="section-shell features" id="features">
+        <article class="feature-card reveal green-card">
+          <div class="feature-icon">$</div>
+          <h3>Salary Tracking</h3>
+          <p>Set monthly salary and see the balance that remains after paid expenses.</p>
+        </article>
+        <article class="feature-card reveal red-card">
+          <div class="feature-icon">C</div>
+          <h3>Bills &amp; Commitments</h3>
+          <p>Track bills, commitments, house, and rent in organized categories.</p>
+        </article>
+        <article class="feature-card reveal blue-card">
+          <div class="feature-icon">R</div>
+          <h3>Reports</h3>
+          <p>Review salary, received income, paid expenses, and unpaid obligations.</p>
+        </article>
+        <article class="feature-card reveal purple-card">
+          <div class="feature-icon">I</div>
+          <h3>Income Checklist</h3>
+          <p>Add extra income and count it only after it is marked received.</p>
+        </article>
+      </section>
+
+      <section class="section-shell sync-section reveal" id="sync">
+        <div>
+          <p class="eyebrow">Cloud Sync</p>
+          <h2>Backups that respect local data.</h2>
+          <p>
+            PayDay keeps SharedPreferences as the local source of truth, then
+            lets signed-in users back up or restore from Firestore when they
+            choose.
+          </p>
+        </div>
+        <div class="sync-panel">
+          <div class="sync-row">
+            <span class="sync-icon">1</span>
+            <div>
+              <strong>Offline First</strong>
+              <small>Salary, income, bills, and settings load locally.</small>
+            </div>
+          </div>
+          <div class="sync-row">
+            <span class="sync-icon">2</span>
+            <div>
+              <strong>Cloud Backup</strong>
+              <small>Manual and automatic sync are available after sign-in.</small>
+            </div>
+          </div>
+          <div class="sync-row">
+            <span class="sync-icon">3</span>
+            <div>
+              <strong>Restore Protection</strong>
+              <small>Existing cloud backups are not overwritten silently.</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell company reveal" id="company">
+        <p class="eyebrow">Anmy Technologies</p>
+        <h2>Practical software for everyday routines.</h2>
+        <p>
+          We build focused apps with calm interfaces, dependable data handling,
+          and features shaped around real daily use.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Anmy Technologies</strong>
+        <span>&copy; 2026 Anmy Technologies</span>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </nav>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
